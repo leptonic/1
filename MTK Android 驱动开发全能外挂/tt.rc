@@ -1,0 +1,264 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\tt.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\标志在线软件图标生成.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TT_DIALOG DIALOGEX 0, 0, 569, 218
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "MTK_智能机全能外挂"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "写入",IDC_BUTTON1,13,171,21,18
+    EDITTEXT        IDC_EDIT1,13,35,24,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,41,35,26,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "开内核log",IDC_BUTTON2,306,23,41,18
+    PUSHBUTTON      "测试fps",IDC_BUTTON3,511,81,41,18
+    PUSHBUTTON      "清除log",IDC_BUTTON4,306,118,41,18
+    EDITTEXT        IDC_EDIT3,13,51,24,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,41,51,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,13,68,24,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,41,68,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,13,84,24,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,41,84,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT9,13,99,24,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT10,41,99,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT11,13,115,24,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT12,41,115,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT13,13,131,24,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT14,41,131,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT15,13,147,24,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT16,41,147,26,14,ES_AUTOHSCROLL
+    GROUPBOX        "摄像头在线调试",IDC_STATIC,7,7,69,204
+    PUSHBUTTON      "读出",IDC_BUTTON5,40,171,24,17
+    LTEXT           "地址 | 数据",IDC_STATIC,16,23,51,8
+    PUSHBUTTON      "卡死猫",IDC_BUTTON6,306,80,41,18
+    GROUPBOX        "Log",IDC_STATIC,299,7,53,191
+    PUSHBUTTON      "开网络log",IDC_BUTTON7,306,42,41,18
+    PUSHBUTTON      "开猫log",IDC_BUTTON8,306,61,41,18
+    PUSHBUTTON      "Log状态",IDC_BUTTON9,306,99,41,18
+    PUSHBUTTON      "查询状态",IDC_BUTTON10,86,169,35,18
+    GROUPBOX        "GPIO在线调试",IDC_STATIC,81,7,69,204
+    LTEXT           "PIN",IDC_STATIC,107,24,16,8
+    LTEXT           "MODE",IDC_STATIC,107,40,16,8
+    LTEXT           "PullSelect",IDC_STATIC,98,55,42,8
+    LTEXT           "IN",IDC_STATIC,98,70,16,8
+    LTEXT           "OUT",IDC_STATIC,98,87,16,8
+    LTEXT           "Direction",IDC_STATIC,97,118,43,8
+    LTEXT           "PullEnable",IDC_STATIC,97,102,46,8
+    LTEXT           "Inversion",IDC_STATIC,96,134,42,8
+    CONTROL         "Check1",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,85,68,8,13
+    CONTROL         "Check1",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,85,85,8,13
+    CONTROL         "Check1",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,85,99,8,13
+    CONTROL         "Check1",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,85,116,8,13
+    CONTROL         "Check1",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,85,133,8,13
+    EDITTEXT        IDC_EDIT17,85,21,18,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT18,85,37,18,12,ES_AUTOHSCROLL
+    CONTROL         "Check6",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,85,55,11,8
+    GROUPBOX        "PMIC在线调试",IDC_STATIC,157,7,67,108
+    EDITTEXT        IDC_EDIT19,196,27,27,15,ES_UPPERCASE
+    PUSHBUTTON      "写入",IDC_BUTTON11,163,93,24,16
+    PUSHBUTTON      "读出",IDC_BUTTON12,191,93,24,16
+    CONTROL         "数据 0x",IDC_STATIC,"Static",SS_SIMPLE | WS_GROUP,167,
+                    30,41,13
+    LTEXT           "Bank0",IDC_STATIC,171,66,21,13
+    LTEXT           "Bank1",IDC_STATIC,171,78,22,13
+    PUSHBUTTON      "开启FM",IDC_BUTTON13,511,21,41,18
+    PUSHBUTTON      "闪存分析",IDC_BUTTON14,511,41,41,18
+    PUSHBUTTON      "显示进程",IDC_BUTTON15,237,21,41,15
+    EDITTEXT        IDC_EDIT22,237,39,41,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "干掉进程",IDC_BUTTON16,237,55,41,15
+    PUSHBUTTON      "截图",IDC_BUTTON17,514,193,48,18
+    PUSHBUTTON      "检查设备",IDC_BUTTON18,511,61,41,18
+    PUSHBUTTON      "查看log",IDC_BUTTON19,304,181,41,14
+    GROUPBOX        "进程管理",IDC_STATIC,229,7,65,75
+    GROUPBOX        "基带在线调试",IDC_STATIC,229,84,67,127
+    PUSHBUTTON      "写入",IDC_BUTTON20,233,153,56,17
+    PUSHBUTTON      "读出",IDC_BUTTON21,233,175,56,17
+    LTEXT           "地址",IDC_STATIC,232,110,17,9
+    LTEXT           "数据",IDC_STATIC,232,127,17,9
+    EDITTEXT        IDC_EDIT23,252,106,41,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT24,252,125,41,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "拨打112",IDC_BUTTON22,508,109,37,13
+    PUSHBUTTON      "测试短信",IDC_BUTTON23,509,126,37,13
+    PUSHBUTTON      "安装软件",IDC_BUTTON24,510,144,36,13
+    GROUPBOX        "CPU调试",IDC_STATIC,355,7,127,43
+    PUSHBUTTON      "双核火力全开",IDC_BUTTON25,357,17,49,12
+    PUSHBUTTON      "恢复节电模式",IDC_BUTTON26,357,32,50,14
+    PUSHBUTTON      "LD截图",IDC_BUTTON27,514,175,48,18
+    PUSHBUTTON      "写入",IDC_BUTTON28,113,149,30,13
+    PUSHBUTTON      "背光最亮",IDC_BUTTON29,358,191,45,13
+    EDITTEXT        IDC_EDIT20,195,47,27,15,ES_AUTOHSCROLL
+    CONTROL         "地址 0x",IDC_STATIC,"Static",SS_SIMPLE | WS_GROUP,167,
+                    49,35,13
+    CONTROL         "Radio1",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,197,65,
+                    10,10
+    CONTROL         "Radio1",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,196,79,
+                    10,10
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "tt Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "tt\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2013\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "tt.EXE\0"
+            VALUE "ProductName", "tt 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_TT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 562
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 211
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\tt.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

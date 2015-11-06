@@ -1,0 +1,7 @@
+cat sys/class/thermal/thermal_zone0/temp > data/1.txt
+cat sys/class/thermal/thermal_zone1/temp >> data/1.txt
+cat sys/class/thermal/thermal_zone2/temp >> data/1.txt
+cat sys/class/thermal/thermal_zone3/temp >> data/1.txt
+cat sys/class/thermal/thermal_zone4/temp >> data/1.txt
+cat sys/class/thermal/thermal_zone5/temp >> data/1.txt
+exit

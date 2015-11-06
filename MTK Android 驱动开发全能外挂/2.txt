@@ -1,0 +1,2 @@
+top -n 1 | busybox grep "fps";exit
+ root@android:/ # top -n 1 | busybox grep "fps";exit

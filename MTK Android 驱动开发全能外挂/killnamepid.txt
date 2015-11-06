@@ -1,0 +1,4 @@
+top -n 1 | busybox grep "fps"
+root@android:/ # top -n 1 | busybox grep "fps"
+ 1600  0   0% S    10 312364K  41900K  fg u0_a71   com.edburnette.fps2d
+root@android:/ # 
